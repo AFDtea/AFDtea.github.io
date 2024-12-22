@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8c988f5e87.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -46,37 +47,68 @@
                     sem sit amet dictum. Curabitur posuere, erat in condimentum porttitor, enim orci aliquet
                     quam, sit amet interdum turpis est eu nisl.</p>
 
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>UI?UX</span><br>Designing Web/App Interfaces</li>
-                            <li><span>Web Development</span><br>Web App Development</li>
-                            <li><span>App Development</span><br>Designing Apps</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>Skills1</span><br>aksjdgksjfgjslkdfjgls</li>
-                            <li><span>Skills2</span><br>aksjdgksjfgjslkdfjgls</li>
-                            <li><span>Skills3</span><br>aksjdgksjfgjslkdfjgls</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>Education1</span><br>aksjdgksjfgjslkdfjgls</li>
-                            <li><span>Education2</span><br>aksjdgksjfgjslkdfjgls</li>
-                            <li><span>Education3</span><br>aksjdgksjfgjslkdfjgls</li>
-                        </ul>
-                    </div>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI?UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Designing Apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Skills1</span><br>aksjdgksjfgjslkdfjgls</li>
+                        <li><span>Skills2</span><br>aksjdgksjfgjslkdfjgls</li>
+                        <li><span>Skills3</span><br>aksjdgksjfgjslkdfjgls</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Education1</span><br>aksjdgksjfgjslkdfjgls</li>
+                        <li><span>Education2</span><br>aksjdgksjfgjslkdfjgls</li>
+                        <li><span>Education3</span><br>aksjdgksjfgjslkdfjgls</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 </div>
-<!------------------ About ---------------------->
+<!------------------ Services ---------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat,
+                    vestibulum mi nec, ultricies metus. Sed at metus lacinia, pellentesque arcu vitae,
+                    aliquet velit.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat,
+                    vestibulum mi nec, ultricies metus. Sed at metus lacinia, pellentesque arcu vitae,
+                    aliquet velit.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat,
+                    vestibulum mi nec, ultricies metus. Sed at metus lacinia, pellentesque arcu vitae,
+                    aliquet velit.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script>
     var tablinks = document.getElementsByClassName("tab-links");

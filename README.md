@@ -5,4 +5,7 @@ To-Do:
 - logo to go at the top left
 
 Notes:
-Right click and then use live server to see the site in real time
+- Right click and then use live server to see the site in real time
+
+- Using [FontAwesome](https://fontawesome.com/) for some icons
+\t - used in the skills section right now 
