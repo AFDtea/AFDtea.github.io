@@ -1,4 +1,4 @@
-Currently on 10:06 of [the video](https://www.youtube.com/watch?v=0YFrGy_mzjY)
+Currently on 1:05:00 of [the video](https://www.youtube.com/watch?v=0YFrGy_mzjY)
 
 To-Do:
 - image that acts as the background
