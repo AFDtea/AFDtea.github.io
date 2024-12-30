@@ -22,15 +22,17 @@ body{
 
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.logo{
+.fa-house {
     width: 70px;
+    font-size: 30px;
+    color: #ff004f;
 }
 
 nav ul li{
@@ -78,14 +80,16 @@ the background picture - Make sure to look around the
 10 minute mark for how to put a background image for
 the entire site*/
 #picture {
-    width: 40%;
-    height: 60vh;
-    background-image: url('images/headshot.jpg');
-    background-size: cover;
-    background-position: bottom right;
+    width: 40vw;  /* 40% of viewport width */
+    height: 80vh; /* 80% of viewport height */
+    background-image: url('images/rubix_cube2.webp');
+    background-size: contain;  /* Changed from cover to contain */
+    background-position: center;
+    background-repeat: no-repeat;
     position: absolute;
     bottom: 0;
     right: 0;
+    z-index: -1;
 }
 
 /* ------------------ about ------------------- */
@@ -105,12 +109,15 @@ the entire site*/
     flex-basis: 35%;
 }
 .about-col-1 img{
-    width: 100%;
+    width: auto;
+    height: 60vh;
     border-radius: 15px;
+    /* margin-left: 40px; Move it to the right */
 }
 
 .about-col-2{
     flex-basis: 60%;
+    /* margin-right: 50px; */
 }
 
 .subtitle{
@@ -354,7 +361,10 @@ form btn2{
 }
 
 /* ------------------ css for small screen ------------------- */
-nav .fa-solid{
+nav .fa-xmark{
+    display: none;
+}
+nav .fa-bars{
     display: none;
 }
 
@@ -362,7 +372,7 @@ nav .fa-solid{
     #header{
         /* need to have another image for a phone background 
         - basically just the same thing but smaller*/
-        background-image: url(images/headshot.jpg);
+        background-image: url(images/rubix_cube2.webp);
     }
     .header-text{
         margin-top: 100%;
