@@ -75,6 +75,29 @@ nav ul li a:hover::after{
     color: #ff004f;
 }
 
+.header-contact{
+    flex-basis: 35%;
+}
+
+.header-contact a{
+    /* margin-top: 30px; */
+    text-decoration: none;
+    color: #fff;
+}
+.header-contact a i{
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.header-contact p{
+    margin-top: 30px;
+}
+.header-contact p i{
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
 /* This is just a temporary element for 
 the background picture - Make sure to look around the
 10 minute mark for how to put a background image for
