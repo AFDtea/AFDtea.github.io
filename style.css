@@ -15,14 +15,14 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    position: relative;  /* Add this */
-    overflow: hidden;    /* Add this */
+    position: relative;
+    overflow: hidden;
 }
 
 .container{
     padding: 10px 10%;
-    position: relative;  /* Add this */
-    overflow: hidden;    /* Add this */
+    position: relative;
+    overflow: hidden;
 }
 
 nav {
@@ -83,7 +83,6 @@ nav ul li a:hover::after{
 }
 
 .header-contact a{
-    /* margin-top: 30px; */
     text-decoration: none;
     color: #fff;
 }
@@ -101,15 +100,11 @@ nav ul li a:hover::after{
     font-size: 25px;
 }
 
-/* This is just a temporary element for 
-the background picture - Make sure to look around the
-10 minute mark for how to put a background image for
-the entire site*/
 #picture {
-    width: 40vw;  /* 40% of viewport width */
-    height: 80vh; /* 80% of viewport height */
+    width: 40vw;
+    height: 80vh;
     background-image: url('images/rubix_cube2.webp');
-    background-size: contain;  /* Changed from cover to contain */
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -139,12 +134,10 @@ the entire site*/
     width: auto;
     height: 60vh;
     border-radius: 15px;
-    /* margin-left: 40px; Move it to the right */
 }
 
 .about-col-2{
     flex-basis: 60%;
-    /* margin-right: 50px; */
 }
 
 .subtitle{
@@ -324,7 +317,6 @@ the entire site*/
     flex-basis: 60%;
 }
 .contact-left a{
-    /* margin-top: 30px; */
     text-decoration: none;
     color: #fff;
 }
@@ -399,26 +391,25 @@ nav .fa-bars{
 
 @media only screen and (max-width: 600px){
     #picture {
-        width: 80vw;
-        height: 40vh;
-        max-width: 300px;
-        max-height: 400px;
-        right: 50%;   /* Center horizontally */
-        transform: translateX(50%);  /* Complete the centering */
-        margin-top: 50px;
+        width: 100vw;
+        height: 60vh;
+        max-width: 400px;
+        max-height: 500px;
+        right: 50%;
+        transform: translateX(50%);
     }
     .header-text {
-        margin-top: 20%;  /* Change from 100% to a smaller value */
+        margin-top: 20%;
         font-size: 16px;
-        text-align: center;  /* Add this to center text */
-        position: relative;  /* Add this */
-        z-index: 1;         /* Add this to ensure text appears above image */
+        text-align: center; 
+        position: relative;
+        z-index: 1;
     }
     .header-contact {
-        margin-top: 20px;  /* Add this */
-        text-align: center;  /* Add this */
-        position: relative;  /* Add this */
-        z-index: 1;         /* Add this */
+        margin-top: 20px;
+        text-align: center;
+        position: relative;
+        z-index: 1;
     }
     .header-text h1{
         font-size: 30px;
@@ -460,9 +451,9 @@ nav .fa-bars{
         flex-basis: 100%;
     }
     .about-col-1{
-        display: flex;         /* Add this */
-        justify-content: center; /* Add this */
-        align-items: center;    /* Add this */
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-bottom: 30px;
     }
     .about-col-2{
@@ -472,33 +463,28 @@ nav .fa-bars{
         font-size: 16px;
         margin-right: 20px;
     }
-    
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
+
     .work {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
     .work img {
-        width: 100%;    /* Reduce from 100% to make images smaller */
-        height: 50vh;  /* Adjust height for mobile */
-        object-fit: cover;  /* This will maintain aspect ratio while covering the space */
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
         object-position: top center;
     }
-
-    /* Adjust the container for the work section */
     .work-list {
-        gap: 20px;  /* Reduce gap between works for mobile */
+        gap: 20px;
     }
-
-    /* Make sure the hover effect layer matches new image size */
     .layer {
         width: 100%;
         left: 50%;
-        transform: translateX(-50%);  /* Center the layer overlay */
+        transform: translateX(-50%);
     }
 }
 
